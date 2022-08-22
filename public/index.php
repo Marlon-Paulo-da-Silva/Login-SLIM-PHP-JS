@@ -9,8 +9,16 @@
   $app = AppFactory::create();
 
   $app->get('/', function (Request $request, Response $response, $args) {
-    view('home', ['title' => 'Login']);
+    view('login', ['title' => 'Login']);
     // $response->getBody()->write("Hello, Marlon");
+    return $response;
+  });
+
+  $app->post('/login', function (Request $request, Response $response, $args) {
+    $email = strip_tags($_POST['email']);
+    $passwrd = strip_tags($_POST['passwrd']);
+
+    
     return $response;
   });
 

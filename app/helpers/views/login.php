@@ -25,7 +25,7 @@
         </div>
         <div id="passwordContainer">
             <label>Senha:</label>
-            <input id="password" name="password" type="password" placeholder="Ex.: senhateste"
+            <input id="password" name="passwrd" type="password" placeholder="Ex.: senhateste"
                 class="input input-dark">
             <i data-feather="eye-off" class="iconFeather"></i>
         </div>
