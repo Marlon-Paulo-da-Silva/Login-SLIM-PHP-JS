@@ -9,7 +9,7 @@
   $app = AppFactory::create();
 
   $app->get('/', function (Request $request, Response $response, $args) {
-    view('home');
+    view('home', ['title' => 'Login']);
     // $response->getBody()->write("Hello, Marlon");
     return $response;
   });
