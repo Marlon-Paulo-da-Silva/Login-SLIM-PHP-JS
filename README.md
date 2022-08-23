@@ -1,9 +1,8 @@
 # Login com SLIM Framework e JS Puro 
 
 <div align="center">
-  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/agenda-PHP-arrasta-e-solta/blob/main/full-calendar.gif" alt="demo" height="425">
-  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/agenda-PHP-arrasta-e-solta/blob/main/full-calendar.gif" alt="demo" height="425">
-  
+  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/Login-SLIM-PHP-JS/blob/main/recursos/image_2022_08_23T17_58_27_366Z.png" alt="demo" height="200">
+  <img align="center" src="https://github.com/Marlon-Paulo-da-Silva/Login-SLIM-PHP-JS/blob/main/recursos/image_2022_08_23T17_58_36_584Z.png" alt="demo" height="200">
 </div>
  
 <br />
