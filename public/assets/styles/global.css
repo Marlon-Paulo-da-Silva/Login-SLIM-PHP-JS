@@ -83,8 +83,12 @@ html, body {
     animation-duration: 1s;
 }
 
-.btn-login {
+/* .btn-login {
     background-image: linear-gradient(to right, rgb(254,0,0) 0.36%, rgb(49, 20, 69) 119.95%);
+} */
+
+.btn-login {
+    background-image: linear-gradient(to right, #719E40 0.36%, rgb(19 58 20) 119.95%);
 }
 
 .btn-save {
@@ -112,6 +116,7 @@ html, body {
 .text-error {
     font: italic 300 0.87rem 'Poppins';
     margin: 5px 0;
+    color: white;
 }
 
 

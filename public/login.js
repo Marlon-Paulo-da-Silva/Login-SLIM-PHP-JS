@@ -2542,6 +2542,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 const form = document.querySelector("#form-login");
+const message = document.querySelector("#message");
+
+function setMessage(messageText) {
+  message.classList.add('text-error');
+  message.textContent = messageText;
+  setTimeout(() => {
+    message.textContent = '';
+  }, 3000);
+}
+
 form.addEventListener('submit', async event => {
   event.preventDefault();
 
@@ -2551,8 +2561,9 @@ form.addEventListener('submit', async event => {
       data
     } = await axios__WEBPACK_IMPORTED_MODULE_0___default().post('/login', formData);
     console.log(data);
+    data == 'loggedIn' ? window.location.href = '/admin' : setMessage('Erro ao fazer o login');
   } catch (error) {
-    console.log(error);
+    setMessage('Erro ao fazer o login');
   }
 });
 })();
